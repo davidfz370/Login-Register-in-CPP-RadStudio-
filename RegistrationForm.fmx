@@ -1,0 +1,81 @@
+object MyRegistrationForm: TMyRegistrationForm
+  Left = 0
+  Top = 0
+  Caption = 'Registration'
+  ClientHeight = 480
+  ClientWidth = 596
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object nameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 208.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object TLabel
+    Position.X = 152.000000000000000000
+    Position.Y = 80.000000000000000000
+    Text = 'Name'
+    TabOrder = 7
+  end
+  object ageEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 208.000000000000000000
+    Position.Y = 121.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object usernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 208.000000000000000000
+    Position.Y = 170.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object passwordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 208.000000000000000000
+    Position.Y = 219.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object TLabel
+    Position.X = 152.000000000000000000
+    Position.Y = 129.000000000000000000
+    Text = 'Age'
+    TabOrder = 6
+  end
+  object TLabel
+    Position.X = 152.000000000000000000
+    Position.Y = 178.000000000000000000
+    Text = 'Username'
+    TabOrder = 5
+  end
+  object TLabel
+    Position.X = 152.000000000000000000
+    Position.Y = 227.000000000000000000
+    Text = 'Password'
+    TabOrder = 4
+  end
+  object RegisterButton: TButton
+    Position.X = 232.000000000000000000
+    Position.Y = 304.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 46.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Register'
+    OnClick = RegisterButtonClick
+  end
+end
